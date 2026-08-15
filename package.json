@@ -1,0 +1,27 @@
+{
+  "name": "obsidian-ahmed-plugin",
+  "version": "1.0.0",
+  "description": "Personal Obsidian workflow tools, including project-aware Kanban task capture.",
+  "private": true,
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmedsbytes/obsidian-ahmed-plugin.git"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "format:check": "prettier --check .",
+    "typecheck": "node --check main.js && node --check tests/project-task-capture.test.js",
+    "test": "node --test tests/project-task-capture.test.js",
+    "test:all": "npm run lint && npm run format:check && npm run typecheck && npm test"
+  },
+  "files": [
+    "main.js",
+    "manifest.json",
+    "styles.css"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

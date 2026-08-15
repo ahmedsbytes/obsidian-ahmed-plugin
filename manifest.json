@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-ahmed-plugin",
+  "name": "Ahmed's Obsidian Tools",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Personal Obsidian workflow tools, including project-aware Kanban task capture.",
+  "author": "Ahmed Abdou",
+  "authorUrl": "https://github.com/ahmedsbytes",
+  "helpUrl": "https://github.com/ahmedsbytes/obsidian-ahmed-plugin#readme",
+  "isDesktopOnly": false
+}

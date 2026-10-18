@@ -9,8 +9,6 @@ coverage/
 .env*
 auth.json*
 credentials/
-data/
-migrations/
 checkpoints/
 cache/
 backups/
